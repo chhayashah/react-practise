@@ -1,27 +1,37 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 const Accordion = () => {
     const [active, setActive] = useState(null);
 
     const data = [
       {
-        title: "What is React?",
-        content: "React is a JS library",
-      },
-      { title: "What is JS?", content: "JavaScript is a language" },
-      { title: "What is HTML?", content: "HTML is markup language" },
+        id: 1,
+            question: "What is React?",
+            answer:"React is a JS library."
+        },
+        {
+            id: 2,
+            question: "What is JSX",
+            answer:"JSX allows us to write HTML inside JS."
+        }
     ];
 
+    const handleToggle = (id) => {
+        setActive(active === id ? null : id);
+    };
+
     return (
-        <>
-            <h1>Accordion</h1>
-            {data.map((item, index) => (
-                <div key={index}>
-                    <h3 onClick={()=>setActive(active===index ? null : index)}>{item.title}</h3>
-                    {active === index && <p>{item.content}</p>}
+        <div style={{padding:"20px"}}>
+            <h3>Accordion</h3>
+            {data.map((item) => (
+                <div key={item.id}>
+                    <h3 onClick={() => handleToggle(item.id)}>{item.question}</h3>
+                    {active === item.id && (
+                        <p>{item.answer }</p>
+                    )}
                 </div>
             ))}
-        </>
+        </div>
     )
 }
 export default Accordion;
