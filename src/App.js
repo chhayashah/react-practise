@@ -4,7 +4,8 @@ import './App.css';
 // import Todo from './components/Todo';
 // import Accordion from "./components/Accordion";
 // import SearchDebounce from "./components/SearchDebounce";
-import PasswordToggle from "./components/PasswordToggle";
+// import PasswordToggle from "./components/PasswordToggle";
+import Pagination from "./components/Pagination";
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       {/* <Todo/> */}
       {/* <Accordion/> */}
       {/* <SearchDebounce/> */}
-      <PasswordToggle/>
+      {/* <PasswordToggle/> */}
+      <Pagination/>
    </div>
   );
 }
