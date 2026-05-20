@@ -5,7 +5,8 @@ import './App.css';
 // import Accordion from "./components/Accordion";
 // import SearchDebounce from "./components/SearchDebounce";
 // import PasswordToggle from "./components/PasswordToggle";
-import Pagination from "./components/Pagination";
+// import Pagination from "./components/Pagination";
+import SearchFilter from "./components/SearchFilter";
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
       {/* <Accordion/> */}
       {/* <SearchDebounce/> */}
       {/* <PasswordToggle/> */}
-      <Pagination/>
+      {/* <Pagination/> */}
+      <SearchFilter/>
    </div>
   );
 }
