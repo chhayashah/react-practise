@@ -7,7 +7,8 @@ import './App.css';
 // import PasswordToggle from "./components/PasswordToggle";
 // import Pagination from "./components/Pagination";
 // import SearchFilter from "./components/SearchFilter";
-import Tabs from "./components/Tabs";
+// import Tabs from "./components/Tabs";
+import Modals from "./components/Modals"
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
       {/* <PasswordToggle/> */}
       {/* <Pagination/> */}
       {/* <SearchFilter/> */}
-      <Tabs/>
+      {/* <Tabs/> */}
+      <Modals/>
    </div>
   );
 }
