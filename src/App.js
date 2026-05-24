@@ -8,7 +8,8 @@ import './App.css';
 // import Pagination from "./components/Pagination";
 // import SearchFilter from "./components/SearchFilter";
 // import Tabs from "./components/Tabs";
-import Modals from "./components/Modals"
+// import Modals from "./components/Modals";
+import Toast from "./components/Toast";
 
 function App() {
   return (
@@ -21,7 +22,8 @@ function App() {
       {/* <Pagination/> */}
       {/* <SearchFilter/> */}
       {/* <Tabs/> */}
-      <Modals/>
+      {/* <Modals/> */}
+      <Toast/>
    </div>
   );
 }
