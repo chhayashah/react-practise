@@ -9,7 +9,8 @@ import './App.css';
 // import SearchFilter from "./components/SearchFilter";
 // import Tabs from "./components/Tabs";
 // import Modals from "./components/Modals";
-import Toast from "./components/Toast";
+// import Toast from "./components/Toast";
+import ProgressBar from "./components/ProgressBar";
 
 function App() {
   return (
@@ -23,7 +24,8 @@ function App() {
       {/* <SearchFilter/> */}
       {/* <Tabs/> */}
       {/* <Modals/> */}
-      <Toast/>
+      {/* <Toast/> */}
+      <ProgressBar/>
    </div>
   );
 }
