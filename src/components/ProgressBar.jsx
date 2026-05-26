@@ -1,9 +1,9 @@
-import React, { useState,useRef } from "react";
+import React, { useState, useRef } from "react";
 
 const ProgressBar = () => {
-    const [progress, setProgress] = useState(0);
-    
-    const intervalRef = useRef(null);
+  const [progress, setProgress] = useState(0);
+
+  const intervalRef = useRef(null);
 
   const startProgress = () => {
     setProgress(0);
@@ -20,11 +20,11 @@ const ProgressBar = () => {
         return newValue;
       });
     }, 500);
-    };
-    
-    const stopProgress = () => {
-      clearInterval(intervalRef.current);
-    };
+  };
+
+  const stopProgress = () => {
+    clearInterval(intervalRef.current);
+  };
 
   return (
     <div style={{ padding: "20px" }}>
