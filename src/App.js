@@ -11,7 +11,8 @@ import './App.css';
 // import Modals from "./components/Modals";
 // import Toast from "./components/Toast";
 // import ProgressBar from "./components/ProgressBar";
-import StarRating from "./components/StarRating";
+// import StarRating from "./components/StarRating";
+import Stopwatch from "./components/Stopwatch";
 
 function App() {
   return (
@@ -27,7 +28,8 @@ function App() {
       {/* <Modals/> */}
       {/* <Toast/> */}
       {/* <ProgressBar/> */}
-      <StarRating/>
+      {/* <StarRating/> */}
+      <Stopwatch/>
    </div>
   );
 }
