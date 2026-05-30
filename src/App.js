@@ -12,7 +12,8 @@ import './App.css';
 // import Toast from "./components/Toast";
 // import ProgressBar from "./components/ProgressBar";
 // import StarRating from "./components/StarRating";
-import Stopwatch from "./components/Stopwatch";
+// import Stopwatch from "./components/Stopwatch";
+import DarkMode from "./components/DarkMode";
 
 function App() {
   return (
@@ -29,7 +30,8 @@ function App() {
       {/* <Toast/> */}
       {/* <ProgressBar/> */}
       {/* <StarRating/> */}
-      <Stopwatch/>
+      {/* <Stopwatch/> */}
+      <DarkMode/>
    </div>
   );
 }
