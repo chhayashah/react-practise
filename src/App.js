@@ -13,7 +13,9 @@ import './App.css';
 // import ProgressBar from "./components/ProgressBar";
 // import StarRating from "./components/StarRating";
 // import Stopwatch from "./components/Stopwatch";
-import DarkMode from "./components/DarkMode";
+// import DarkMode from "./components/DarkMode";
+import CharacterCounter from "./components/CharacterCounter";
+
 
 function App() {
   return (
@@ -31,7 +33,8 @@ function App() {
       {/* <ProgressBar/> */}
       {/* <StarRating/> */}
       {/* <Stopwatch/> */}
-      <DarkMode/>
+      {/* <DarkMode/> */}
+      <CharacterCounter/>
    </div>
   );
 }
