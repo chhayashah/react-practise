@@ -15,8 +15,8 @@ import './App.css';
 // import Stopwatch from "./components/Stopwatch";
 // import DarkMode from "./components/DarkMode";
 // import CharacterCounter from "./components/CharacterCounter";
-import PasswordChecker from "./components/PasswordChecker";
-
+// import PasswordChecker from "./components/PasswordChecker";
+import DragAndDropList from "./components/DragAndDropList";
 
 function App() {
   return (
@@ -36,7 +36,8 @@ function App() {
       {/* <Stopwatch/> */}
       {/* <DarkMode/> */}
       {/* <CharacterCounter/> */}
-      <PasswordChecker/>
+      {/* <PasswordChecker/> */}
+      <DragAndDropList/>
    </div>
   );
 }
