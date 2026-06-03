@@ -14,7 +14,8 @@ import './App.css';
 // import StarRating from "./components/StarRating";
 // import Stopwatch from "./components/Stopwatch";
 // import DarkMode from "./components/DarkMode";
-import CharacterCounter from "./components/CharacterCounter";
+// import CharacterCounter from "./components/CharacterCounter";
+import PasswordChecker from "./components/PasswordChecker";
 
 
 function App() {
@@ -34,7 +35,8 @@ function App() {
       {/* <StarRating/> */}
       {/* <Stopwatch/> */}
       {/* <DarkMode/> */}
-      <CharacterCounter/>
+      {/* <CharacterCounter/> */}
+      <PasswordChecker/>
    </div>
   );
 }
