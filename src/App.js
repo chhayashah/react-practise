@@ -16,7 +16,8 @@ import './App.css';
 // import DarkMode from "./components/DarkMode";
 // import CharacterCounter from "./components/CharacterCounter";
 // import PasswordChecker from "./components/PasswordChecker";
-import DragAndDropList from "./components/DragAndDropList";
+// import DragAndDropList from "./components/DragAndDropList";
+import AddToCart from "./components/AddToCart";
 
 function App() {
   return (
@@ -37,7 +38,8 @@ function App() {
       {/* <DarkMode/> */}
       {/* <CharacterCounter/> */}
       {/* <PasswordChecker/> */}
-      <DragAndDropList/>
+      {/* <DragAndDropList/> */}
+      <AddToCart/>
    </div>
   );
 }
