@@ -17,7 +17,8 @@ import './App.css';
 // import CharacterCounter from "./components/CharacterCounter";
 // import PasswordChecker from "./components/PasswordChecker";
 // import DragAndDropList from "./components/DragAndDropList";
-import AddToCart from "./components/AddToCart";
+// import AddToCart from "./components/AddToCart";
+import ImageCarousel from "./components/ImageCarousel";
 
 function App() {
   return (
@@ -39,7 +40,8 @@ function App() {
       {/* <CharacterCounter/> */}
       {/* <PasswordChecker/> */}
       {/* <DragAndDropList/> */}
-      <AddToCart/>
+      {/* <AddToCart/> */}
+      <ImageCarousel/>
    </div>
   );
 }
