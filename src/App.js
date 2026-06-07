@@ -18,7 +18,8 @@ import './App.css';
 // import PasswordChecker from "./components/PasswordChecker";
 // import DragAndDropList from "./components/DragAndDropList";
 // import AddToCart from "./components/AddToCart";
-import ImageCarousel from "./components/ImageCarousel";
+// import ImageCarousel from "./components/ImageCarousel";
+import InfiniteScroll from "./components/InfiniteScroll";
 
 function App() {
   return (
@@ -41,7 +42,8 @@ function App() {
       {/* <PasswordChecker/> */}
       {/* <DragAndDropList/> */}
       {/* <AddToCart/> */}
-      <ImageCarousel/>
+      {/* <ImageCarousel/> */}
+      <InfiniteScroll/>
    </div>
   );
 }
