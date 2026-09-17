@@ -20,7 +20,8 @@ import './App.css';
 // import AddToCart from "./components/AddToCart";
 // import ImageCarousel from "./components/ImageCarousel";
 // import InfiniteScroll from "./components/InfiniteScroll";
-import UserCard from "./components/UserCard";
+// import UserCard from "./components/UserCard";
+import Counterr from "./components/Counterr";
 
 function App() {
   return (
@@ -45,8 +46,9 @@ function App() {
       {/* <AddToCart/> */}
       {/* <ImageCarousel/> */}
       {/* <InfiniteScroll/> */}
-      <UserCard  name="chhaya" role="software" experience="1 year"/>
-   </div>
+      {/* <UserCard  name="chhaya" role="software" experience="1 year"/> */}
+      <Counterr/>
+    </div>
   );
 }
 
