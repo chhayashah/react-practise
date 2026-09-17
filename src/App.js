@@ -19,7 +19,8 @@ import './App.css';
 // import DragAndDropList from "./components/DragAndDropList";
 // import AddToCart from "./components/AddToCart";
 // import ImageCarousel from "./components/ImageCarousel";
-import InfiniteScroll from "./components/InfiniteScroll";
+// import InfiniteScroll from "./components/InfiniteScroll";
+import UserCard from "./components/UserCard";
 
 function App() {
   return (
@@ -43,7 +44,8 @@ function App() {
       {/* <DragAndDropList/> */}
       {/* <AddToCart/> */}
       {/* <ImageCarousel/> */}
-      <InfiniteScroll/>
+      {/* <InfiniteScroll/> */}
+      <UserCard/>
    </div>
   );
 }
