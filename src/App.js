@@ -45,7 +45,7 @@ function App() {
       {/* <AddToCart/> */}
       {/* <ImageCarousel/> */}
       {/* <InfiniteScroll/> */}
-      <UserCard/>
+      <UserCard  name="chhaya" role="software" experience="1 year"/>
    </div>
   );
 }
